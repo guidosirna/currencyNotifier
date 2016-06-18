@@ -27,7 +27,7 @@ Run the script:
 
 To-Do
 ---
-Still pending to make the script run daily and notify via email.
+Still pending to make it run daily and notify via email.
 
 
 Meta
