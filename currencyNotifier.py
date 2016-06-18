@@ -67,4 +67,9 @@ def result(exchangeValue,capValue,amount):
 				return(" "+str(datetime.datetime.now())+"\n Exchange value is equal than Cap. \n Exchange value: "+str(exchangeValue)+" "+currencyTo+". \n Balance: "+str(amount*exchangeValue)+" "+currencyTo+".\n")
 				pass
 
-print result(getExchangeValue(setCurrencyFrom(),setCurrencyTo()),setCapValue(),initialSavings)
+currencyFrom = setCurrencyFrom()
+currencyTo = setCurrencyTo()
+capValue = setCapValue()
+# amount = setAmount()
+
+print result(getExchangeValue(currencyFrom,currencyTo),capValue,initialSavings)
